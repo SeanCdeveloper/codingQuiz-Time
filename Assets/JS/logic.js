@@ -30,7 +30,7 @@ function getQuestion() {
     var titleEl = document.getElementById("question-title");
     titleEl.textContent = currentQuestion.title;
     // changed from .innerHTML (clears out old choices.)
-    choicesEl.innerHTML = "";
+    choicesEl.textContent = "";
     currentQuestion.choices.forEach(function (choice, i) {
         var choiceNode = document.createElement("button");
         choiceNode.setAttribute("class", "choice");
