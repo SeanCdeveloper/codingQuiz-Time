@@ -1,4 +1,4 @@
-## Website To View Coding Quiz:
+## Website For Deployed Application:
 
 https://seancdeveloper.github.io/codingQuiz-Time/
 
